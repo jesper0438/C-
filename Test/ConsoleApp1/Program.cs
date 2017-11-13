@@ -14,18 +14,9 @@ namespace ConsoleApp1
             Console.WriteLine(mijnStudent.GeefStudentnaam());
             Console.WriteLine(mijnStudent.GeefCompetenties());
 
-            Console.WriteLine(mijnStudent.GeefStudentNummer());
+            Console.WriteLine(deStudent.GeefStudentNummer());
             Console.WriteLine(deStudent.GeefStudentnaam());
             Console.WriteLine(deStudent.GeefCompetenties());
-
-
-
-
-
-
-
-
-
 
             string name = Console.ReadLine();
             Console.Read();
