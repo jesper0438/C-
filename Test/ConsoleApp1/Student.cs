@@ -12,9 +12,9 @@ namespace ConsoleApp1
         private string StudentNaam;
 
         //Constructor
-        public Student(string studentnaam, string competenties)
+        public Student(int studentnummer, string studentnaam, string competenties)
         {
-            this.Studentnummer = 45;
+            this.Studentnummer = studentnummer;
             this.StudentNaam = studentnaam;
             this.Competenties = competenties;
             this.Propedeuse = true;
